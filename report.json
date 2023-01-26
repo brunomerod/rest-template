@@ -1,0 +1,143 @@
+{"Time":"2023-01-26T10:28:38.44560221-03:00","Action":"output","Package":"rest-template/pkg/transport/http","Output":"testing: warning: no tests to run\n"}
+{"Time":"2023-01-26T10:28:38.445770938-03:00","Action":"output","Package":"rest-template/pkg/transport/http","Output":"PASS\n"}
+{"Time":"2023-01-26T10:28:38.445787965-03:00","Action":"output","Package":"rest-template/pkg/transport/http","Output":"coverage: 0.0% of statements\n"}
+{"Time":"2023-01-26T10:28:38.451743072-03:00","Action":"output","Package":"rest-template/pkg/transport/http","Output":"ok  \trest-template/pkg/transport/http\t0.022s\tcoverage: 0.0% of statements [no tests to run]\n"}
+{"Time":"2023-01-26T10:28:38.451803292-03:00","Action":"pass","Package":"rest-template/pkg/transport/http","Elapsed":0.022}
+{"Time":"2023-01-26T10:28:38.51861925-03:00","Action":"run","Package":"rest-template/pkg/service/endpoint/middleware","Test":"TestLimiterSuccess"}
+{"Time":"2023-01-26T10:28:38.518735657-03:00","Action":"output","Package":"rest-template/pkg/service/endpoint/middleware","Test":"TestLimiterSuccess","Output":"=== RUN   TestLimiterSuccess\n"}
+{"Time":"2023-01-26T10:28:38.519125745-03:00","Action":"output","Package":"rest-template/pkg/service/endpoint/middleware","Test":"TestLimiterSuccess","Output":"--- PASS: TestLimiterSuccess (0.00s)\n"}
+{"Time":"2023-01-26T10:28:38.519162562-03:00","Action":"pass","Package":"rest-template/pkg/service/endpoint/middleware","Test":"TestLimiterSuccess","Elapsed":0}
+{"Time":"2023-01-26T10:28:38.519184936-03:00","Action":"run","Package":"rest-template/pkg/service/endpoint/middleware","Test":"TestLimiterErrorLimited"}
+{"Time":"2023-01-26T10:28:38.519195188-03:00","Action":"output","Package":"rest-template/pkg/service/endpoint/middleware","Test":"TestLimiterErrorLimited","Output":"=== RUN   TestLimiterErrorLimited\n"}
+{"Time":"2023-01-26T10:28:38.519206392-03:00","Action":"output","Package":"rest-template/pkg/service/endpoint/middleware","Test":"TestLimiterErrorLimited","Output":"--- PASS: TestLimiterErrorLimited (0.00s)\n"}
+{"Time":"2023-01-26T10:28:38.519270204-03:00","Action":"pass","Package":"rest-template/pkg/service/endpoint/middleware","Test":"TestLimiterErrorLimited","Elapsed":0}
+{"Time":"2023-01-26T10:28:38.519280697-03:00","Action":"run","Package":"rest-template/pkg/service/endpoint/middleware","Test":"TestLogging"}
+{"Time":"2023-01-26T10:28:38.519289892-03:00","Action":"output","Package":"rest-template/pkg/service/endpoint/middleware","Test":"TestLogging","Output":"=== RUN   TestLogging\n"}
+{"Time":"2023-01-26T10:28:38.519468073-03:00","Action":"output","Package":"rest-template/pkg/service/endpoint/middleware","Test":"TestLogging","Output":"time=\"2023-01-26T10:28:38-03:00\" level=info msg=\"**starting new logging_test execution**\"\n"}
+{"Time":"2023-01-26T10:28:38.519535439-03:00","Action":"output","Package":"rest-template/pkg/service/endpoint/middleware","Test":"TestLogging","Output":"time=\"2023-01-26T10:28:38-03:00\" level=info error=\"\u003cnil\u003e\" method=logging_test took=\"14.142µs\"\n"}
+{"Time":"2023-01-26T10:28:38.519586186-03:00","Action":"output","Package":"rest-template/pkg/service/endpoint/middleware","Test":"TestLogging","Output":"--- PASS: TestLogging (0.00s)\n"}
+{"Time":"2023-01-26T10:28:38.519620352-03:00","Action":"pass","Package":"rest-template/pkg/service/endpoint/middleware","Test":"TestLogging","Elapsed":0}
+{"Time":"2023-01-26T10:28:38.519629178-03:00","Action":"run","Package":"rest-template/pkg/service/endpoint/middleware","Test":"TestLoggingError"}
+{"Time":"2023-01-26T10:28:38.519636057-03:00","Action":"output","Package":"rest-template/pkg/service/endpoint/middleware","Test":"TestLoggingError","Output":"=== RUN   TestLoggingError\n"}
+{"Time":"2023-01-26T10:28:38.519717973-03:00","Action":"output","Package":"rest-template/pkg/service/endpoint/middleware","Test":"TestLoggingError","Output":"time=\"2023-01-26T10:28:38-03:00\" level=info msg=\"**starting new logging_test execution**\"\n"}
+{"Time":"2023-01-26T10:28:38.519779436-03:00","Action":"output","Package":"rest-template/pkg/service/endpoint/middleware","Test":"TestLoggingError","Output":"time=\"2023-01-26T10:28:38-03:00\" level=error error=\"business error\" method=logging_test took=\"9.477µs\"\n"}
+{"Time":"2023-01-26T10:28:38.519830091-03:00","Action":"output","Package":"rest-template/pkg/service/endpoint/middleware","Test":"TestLoggingError","Output":"--- PASS: TestLoggingError (0.00s)\n"}
+{"Time":"2023-01-26T10:28:38.519860444-03:00","Action":"pass","Package":"rest-template/pkg/service/endpoint/middleware","Test":"TestLoggingError","Elapsed":0}
+{"Time":"2023-01-26T10:28:38.519869297-03:00","Action":"output","Package":"rest-template/pkg/service/endpoint/middleware","Output":"PASS\n"}
+{"Time":"2023-01-26T10:28:38.520006804-03:00","Action":"output","Package":"rest-template/pkg/service/endpoint/middleware","Output":"coverage: 95.5% of statements\n"}
+{"Time":"2023-01-26T10:28:38.527552343-03:00","Action":"output","Package":"rest-template/pkg/service/endpoint/middleware","Output":"ok  \trest-template/pkg/service/endpoint/middleware\t0.022s\tcoverage: 95.5% of statements\n"}
+{"Time":"2023-01-26T10:28:38.527593593-03:00","Action":"pass","Package":"rest-template/pkg/service/endpoint/middleware","Elapsed":0.022}
+{"Time":"2023-01-26T10:28:38.749045455-03:00","Action":"run","Package":"rest-template/pkg/service","Test":"TestReadSuccess"}
+{"Time":"2023-01-26T10:28:38.74909001-03:00","Action":"output","Package":"rest-template/pkg/service","Test":"TestReadSuccess","Output":"=== RUN   TestReadSuccess\n"}
+{"Time":"2023-01-26T10:28:38.749107965-03:00","Action":"output","Package":"rest-template/pkg/service","Test":"TestReadSuccess","Output":"--- PASS: TestReadSuccess (0.00s)\n"}
+{"Time":"2023-01-26T10:28:38.749118739-03:00","Action":"pass","Package":"rest-template/pkg/service","Test":"TestReadSuccess","Elapsed":0}
+{"Time":"2023-01-26T10:28:38.749139008-03:00","Action":"output","Package":"rest-template/pkg/service","Output":"PASS\n"}
+{"Time":"2023-01-26T10:28:38.749144378-03:00","Action":"output","Package":"rest-template/pkg/service","Output":"coverage: 0.0% of statements\n"}
+{"Time":"2023-01-26T10:28:38.758264937-03:00","Action":"output","Package":"rest-template/pkg/service","Output":"ok  \trest-template/pkg/service\t0.014s\tcoverage: 0.0% of statements\n"}
+{"Time":"2023-01-26T10:28:38.758298001-03:00","Action":"pass","Package":"rest-template/pkg/service","Elapsed":0.014}
+{"Time":"2023-01-26T10:28:38.805985814-03:00","Action":"run","Package":"rest-template/pkg/service/endpoint/createAccount","Test":"TestEndpointSuccess"}
+{"Time":"2023-01-26T10:28:38.80604643-03:00","Action":"output","Package":"rest-template/pkg/service/endpoint/createAccount","Test":"TestEndpointSuccess","Output":"=== RUN   TestEndpointSuccess\n"}
+{"Time":"2023-01-26T10:28:38.806264633-03:00","Action":"output","Package":"rest-template/pkg/service/endpoint/createAccount","Test":"TestEndpointSuccess","Output":"--- PASS: TestEndpointSuccess (0.00s)\n"}
+{"Time":"2023-01-26T10:28:38.806364893-03:00","Action":"pass","Package":"rest-template/pkg/service/endpoint/createAccount","Test":"TestEndpointSuccess","Elapsed":0}
+{"Time":"2023-01-26T10:28:38.806386568-03:00","Action":"run","Package":"rest-template/pkg/service/endpoint/createAccount","Test":"TestCreateEndpointError"}
+{"Time":"2023-01-26T10:28:38.806403776-03:00","Action":"output","Package":"rest-template/pkg/service/endpoint/createAccount","Test":"TestCreateEndpointError","Output":"=== RUN   TestCreateEndpointError\n"}
+{"Time":"2023-01-26T10:28:38.806428384-03:00","Action":"output","Package":"rest-template/pkg/service/endpoint/createAccount","Test":"TestCreateEndpointError","Output":"--- PASS: TestCreateEndpointError (0.00s)\n"}
+{"Time":"2023-01-26T10:28:38.806444719-03:00","Action":"pass","Package":"rest-template/pkg/service/endpoint/createAccount","Test":"TestCreateEndpointError","Elapsed":0}
+{"Time":"2023-01-26T10:28:38.80645181-03:00","Action":"run","Package":"rest-template/pkg/service/endpoint/createAccount","Test":"TestRequest"}
+{"Time":"2023-01-26T10:28:38.806458505-03:00","Action":"output","Package":"rest-template/pkg/service/endpoint/createAccount","Test":"TestRequest","Output":"=== RUN   TestRequest\n"}
+{"Time":"2023-01-26T10:28:38.80647685-03:00","Action":"output","Package":"rest-template/pkg/service/endpoint/createAccount","Test":"TestRequest","Output":"--- PASS: TestRequest (0.00s)\n"}
+{"Time":"2023-01-26T10:28:38.806485177-03:00","Action":"pass","Package":"rest-template/pkg/service/endpoint/createAccount","Test":"TestRequest","Elapsed":0}
+{"Time":"2023-01-26T10:28:38.806491397-03:00","Action":"run","Package":"rest-template/pkg/service/endpoint/createAccount","Test":"TestResponse"}
+{"Time":"2023-01-26T10:28:38.806497803-03:00","Action":"output","Package":"rest-template/pkg/service/endpoint/createAccount","Test":"TestResponse","Output":"=== RUN   TestResponse\n"}
+{"Time":"2023-01-26T10:28:38.806506068-03:00","Action":"output","Package":"rest-template/pkg/service/endpoint/createAccount","Test":"TestResponse","Output":"--- PASS: TestResponse (0.00s)\n"}
+{"Time":"2023-01-26T10:28:38.806514854-03:00","Action":"pass","Package":"rest-template/pkg/service/endpoint/createAccount","Test":"TestResponse","Elapsed":0}
+{"Time":"2023-01-26T10:28:38.806522301-03:00","Action":"output","Package":"rest-template/pkg/service/endpoint/createAccount","Output":"PASS\n"}
+{"Time":"2023-01-26T10:28:38.806590972-03:00","Action":"output","Package":"rest-template/pkg/service/endpoint/createAccount","Output":"coverage: 100.0% of statements\n"}
+{"Time":"2023-01-26T10:28:38.807577554-03:00","Action":"output","Package":"rest-template/pkg/service/endpoint/createAccount","Output":"ok  \trest-template/pkg/service/endpoint/createAccount\t0.008s\tcoverage: 100.0% of statements\n"}
+{"Time":"2023-01-26T10:28:38.807601068-03:00","Action":"pass","Package":"rest-template/pkg/service/endpoint/createAccount","Elapsed":0.008}
+{"Time":"2023-01-26T10:28:38.826463669-03:00","Action":"run","Package":"rest-template/pkg/transport/handler/http","Test":"TestServe"}
+{"Time":"2023-01-26T10:28:38.826485514-03:00","Action":"run","Package":"rest-template/pkg/service/endpoint/getAccount","Test":"TestEndpointSuccess"}
+{"Time":"2023-01-26T10:28:38.82650055-03:00","Action":"output","Package":"rest-template/pkg/transport/handler/http","Test":"TestServe","Output":"=== RUN   TestServe\n"}
+{"Time":"2023-01-26T10:28:38.826507898-03:00","Action":"output","Package":"rest-template/pkg/service/endpoint/getAccount","Test":"TestEndpointSuccess","Output":"=== RUN   TestEndpointSuccess\n"}
+{"Time":"2023-01-26T10:28:38.826516521-03:00","Action":"output","Package":"rest-template/pkg/transport/handler/http","Test":"TestServe","Output":"--- PASS: TestServe (0.00s)\n"}
+{"Time":"2023-01-26T10:28:38.826517666-03:00","Action":"output","Package":"rest-template/pkg/service/endpoint/getAccount","Test":"TestEndpointSuccess","Output":"--- PASS: TestEndpointSuccess (0.00s)\n"}
+{"Time":"2023-01-26T10:28:38.826524505-03:00","Action":"pass","Package":"rest-template/pkg/transport/handler/http","Test":"TestServe","Elapsed":0}
+{"Time":"2023-01-26T10:28:38.826527331-03:00","Action":"pass","Package":"rest-template/pkg/service/endpoint/getAccount","Test":"TestEndpointSuccess","Elapsed":0}
+{"Time":"2023-01-26T10:28:38.826532715-03:00","Action":"run","Package":"rest-template/pkg/transport/handler/http","Test":"TestServeDecodeError"}
+{"Time":"2023-01-26T10:28:38.826535112-03:00","Action":"run","Package":"rest-template/pkg/service/endpoint/getAccount","Test":"TestGetEndpointError"}
+{"Time":"2023-01-26T10:28:38.826539173-03:00","Action":"output","Package":"rest-template/pkg/transport/handler/http","Test":"TestServeDecodeError","Output":"=== RUN   TestServeDecodeError\n"}
+{"Time":"2023-01-26T10:28:38.826541974-03:00","Action":"output","Package":"rest-template/pkg/service/endpoint/getAccount","Test":"TestGetEndpointError","Output":"=== RUN   TestGetEndpointError\n"}
+{"Time":"2023-01-26T10:28:38.82654685-03:00","Action":"output","Package":"rest-template/pkg/transport/handler/http","Test":"TestServeDecodeError","Output":"--- PASS: TestServeDecodeError (0.00s)\n"}
+{"Time":"2023-01-26T10:28:38.826549715-03:00","Action":"output","Package":"rest-template/pkg/service/endpoint/getAccount","Test":"TestGetEndpointError","Output":"--- PASS: TestGetEndpointError (0.00s)\n"}
+{"Time":"2023-01-26T10:28:38.826553566-03:00","Action":"pass","Package":"rest-template/pkg/transport/handler/http","Test":"TestServeDecodeError","Elapsed":0}
+{"Time":"2023-01-26T10:28:38.826561857-03:00","Action":"pass","Package":"rest-template/pkg/service/endpoint/getAccount","Test":"TestGetEndpointError","Elapsed":0}
+{"Time":"2023-01-26T10:28:38.826565481-03:00","Action":"run","Package":"rest-template/pkg/transport/handler/http","Test":"TestServeEndpointError"}
+{"Time":"2023-01-26T10:28:38.826569064-03:00","Action":"run","Package":"rest-template/pkg/service/endpoint/getAccount","Test":"TestRequest"}
+{"Time":"2023-01-26T10:28:38.82657288-03:00","Action":"output","Package":"rest-template/pkg/transport/handler/http","Test":"TestServeEndpointError","Output":"=== RUN   TestServeEndpointError\n"}
+{"Time":"2023-01-26T10:28:38.82657683-03:00","Action":"output","Package":"rest-template/pkg/service/endpoint/getAccount","Test":"TestRequest","Output":"=== RUN   TestRequest\n"}
+{"Time":"2023-01-26T10:28:38.826582557-03:00","Action":"output","Package":"rest-template/pkg/transport/handler/http","Test":"TestServeEndpointError","Output":"--- PASS: TestServeEndpointError (0.00s)\n"}
+{"Time":"2023-01-26T10:28:38.826583991-03:00","Action":"output","Package":"rest-template/pkg/service/endpoint/getAccount","Test":"TestRequest","Output":"--- PASS: TestRequest (0.00s)\n"}
+{"Time":"2023-01-26T10:28:38.826589415-03:00","Action":"pass","Package":"rest-template/pkg/transport/handler/http","Test":"TestServeEndpointError","Elapsed":0}
+{"Time":"2023-01-26T10:28:38.826593431-03:00","Action":"pass","Package":"rest-template/pkg/service/endpoint/getAccount","Test":"TestRequest","Elapsed":0}
+{"Time":"2023-01-26T10:28:38.826596794-03:00","Action":"run","Package":"rest-template/pkg/transport/handler/http","Test":"TestServeFailedError"}
+{"Time":"2023-01-26T10:28:38.826600158-03:00","Action":"run","Package":"rest-template/pkg/service/endpoint/getAccount","Test":"TestResponse"}
+{"Time":"2023-01-26T10:28:38.826604266-03:00","Action":"output","Package":"rest-template/pkg/transport/handler/http","Test":"TestServeFailedError","Output":"=== RUN   TestServeFailedError\n"}
+{"Time":"2023-01-26T10:28:38.826606771-03:00","Action":"output","Package":"rest-template/pkg/service/endpoint/getAccount","Test":"TestResponse","Output":"=== RUN   TestResponse\n"}
+{"Time":"2023-01-26T10:28:38.826611038-03:00","Action":"output","Package":"rest-template/pkg/transport/handler/http","Test":"TestServeFailedError","Output":"--- PASS: TestServeFailedError (0.00s)\n"}
+{"Time":"2023-01-26T10:28:38.826614045-03:00","Action":"output","Package":"rest-template/pkg/service/endpoint/getAccount","Test":"TestResponse","Output":"--- PASS: TestResponse (0.00s)\n"}
+{"Time":"2023-01-26T10:28:38.826617479-03:00","Action":"pass","Package":"rest-template/pkg/transport/handler/http","Test":"TestServeFailedError","Elapsed":0}
+{"Time":"2023-01-26T10:28:38.826621955-03:00","Action":"pass","Package":"rest-template/pkg/service/endpoint/getAccount","Test":"TestResponse","Elapsed":0}
+{"Time":"2023-01-26T10:28:38.826624675-03:00","Action":"run","Package":"rest-template/pkg/transport/handler/http","Test":"TestEncodeJSON"}
+{"Time":"2023-01-26T10:28:38.826629088-03:00","Action":"output","Package":"rest-template/pkg/service/endpoint/getAccount","Output":"PASS\n"}
+{"Time":"2023-01-26T10:28:38.826631943-03:00","Action":"output","Package":"rest-template/pkg/transport/handler/http","Test":"TestEncodeJSON","Output":"=== RUN   TestEncodeJSON\n"}
+{"Time":"2023-01-26T10:28:38.826635725-03:00","Action":"output","Package":"rest-template/pkg/service/endpoint/getAccount","Output":"coverage: 100.0% of statements\n"}
+{"Time":"2023-01-26T10:28:38.826640253-03:00","Action":"output","Package":"rest-template/pkg/transport/handler/http","Test":"TestEncodeJSON","Output":"--- PASS: TestEncodeJSON (0.00s)\n"}
+{"Time":"2023-01-26T10:28:38.826646419-03:00","Action":"pass","Package":"rest-template/pkg/transport/handler/http","Test":"TestEncodeJSON","Elapsed":0}
+{"Time":"2023-01-26T10:28:38.826658188-03:00","Action":"output","Package":"rest-template/pkg/transport/handler/http","Output":"PASS\n"}
+{"Time":"2023-01-26T10:28:38.826664768-03:00","Action":"output","Package":"rest-template/pkg/transport/handler/http","Output":"coverage: 40.0% of statements\n"}
+{"Time":"2023-01-26T10:28:38.826719794-03:00","Action":"output","Package":"rest-template/pkg/service/endpoint/getAccount","Output":"ok  \trest-template/pkg/service/endpoint/getAccount\t0.010s\tcoverage: 100.0% of statements\n"}
+{"Time":"2023-01-26T10:28:38.826731015-03:00","Action":"pass","Package":"rest-template/pkg/service/endpoint/getAccount","Elapsed":0.01}
+{"Time":"2023-01-26T10:28:38.826743101-03:00","Action":"output","Package":"rest-template/pkg/transport/handler/http","Output":"ok  \trest-template/pkg/transport/handler/http\t0.005s\tcoverage: 40.0% of statements\n"}
+{"Time":"2023-01-26T10:28:38.826754853-03:00","Action":"pass","Package":"rest-template/pkg/transport/handler/http","Elapsed":0.005}
+{"Time":"2023-01-26T10:28:38.830504183-03:00","Action":"run","Package":"rest-template/pkg/service/endpoint/createTransaction","Test":"TestEndpointSuccess"}
+{"Time":"2023-01-26T10:28:38.830552327-03:00","Action":"output","Package":"rest-template/pkg/service/endpoint/createTransaction","Test":"TestEndpointSuccess","Output":"=== RUN   TestEndpointSuccess\n"}
+{"Time":"2023-01-26T10:28:38.830567477-03:00","Action":"output","Package":"rest-template/pkg/service/endpoint/createTransaction","Test":"TestEndpointSuccess","Output":"--- PASS: TestEndpointSuccess (0.00s)\n"}
+{"Time":"2023-01-26T10:28:38.830578698-03:00","Action":"pass","Package":"rest-template/pkg/service/endpoint/createTransaction","Test":"TestEndpointSuccess","Elapsed":0}
+{"Time":"2023-01-26T10:28:38.830586346-03:00","Action":"run","Package":"rest-template/pkg/service/endpoint/createTransaction","Test":"TestCreateEndpointError"}
+{"Time":"2023-01-26T10:28:38.830591849-03:00","Action":"output","Package":"rest-template/pkg/service/endpoint/createTransaction","Test":"TestCreateEndpointError","Output":"=== RUN   TestCreateEndpointError\n"}
+{"Time":"2023-01-26T10:28:38.830598992-03:00","Action":"output","Package":"rest-template/pkg/service/endpoint/createTransaction","Test":"TestCreateEndpointError","Output":"--- PASS: TestCreateEndpointError (0.00s)\n"}
+{"Time":"2023-01-26T10:28:38.830605145-03:00","Action":"pass","Package":"rest-template/pkg/service/endpoint/createTransaction","Test":"TestCreateEndpointError","Elapsed":0}
+{"Time":"2023-01-26T10:28:38.830610418-03:00","Action":"run","Package":"rest-template/pkg/service/endpoint/createTransaction","Test":"TestRequest"}
+{"Time":"2023-01-26T10:28:38.830615347-03:00","Action":"output","Package":"rest-template/pkg/service/endpoint/createTransaction","Test":"TestRequest","Output":"=== RUN   TestRequest\n"}
+{"Time":"2023-01-26T10:28:38.830621793-03:00","Action":"output","Package":"rest-template/pkg/service/endpoint/createTransaction","Test":"TestRequest","Output":"--- PASS: TestRequest (0.00s)\n"}
+{"Time":"2023-01-26T10:28:38.830627751-03:00","Action":"pass","Package":"rest-template/pkg/service/endpoint/createTransaction","Test":"TestRequest","Elapsed":0}
+{"Time":"2023-01-26T10:28:38.830634819-03:00","Action":"run","Package":"rest-template/pkg/service/endpoint/createTransaction","Test":"TestResponse"}
+{"Time":"2023-01-26T10:28:38.83063847-03:00","Action":"output","Package":"rest-template/pkg/service/endpoint/createTransaction","Test":"TestResponse","Output":"=== RUN   TestResponse\n"}
+{"Time":"2023-01-26T10:28:38.83064265-03:00","Action":"output","Package":"rest-template/pkg/service/endpoint/createTransaction","Test":"TestResponse","Output":"--- PASS: TestResponse (0.00s)\n"}
+{"Time":"2023-01-26T10:28:38.830646079-03:00","Action":"pass","Package":"rest-template/pkg/service/endpoint/createTransaction","Test":"TestResponse","Elapsed":0}
+{"Time":"2023-01-26T10:28:38.830650014-03:00","Action":"output","Package":"rest-template/pkg/service/endpoint/createTransaction","Output":"PASS\n"}
+{"Time":"2023-01-26T10:28:38.830739862-03:00","Action":"output","Package":"rest-template/pkg/service/endpoint/createTransaction","Output":"coverage: 100.0% of statements\n"}
+{"Time":"2023-01-26T10:28:38.836088139-03:00","Action":"output","Package":"rest-template/pkg/service/endpoint/createTransaction","Output":"ok  \trest-template/pkg/service/endpoint/createTransaction\t0.009s\tcoverage: 100.0% of statements\n"}
+{"Time":"2023-01-26T10:28:38.836114742-03:00","Action":"pass","Package":"rest-template/pkg/service/endpoint/createTransaction","Elapsed":0.009}
+{"Time":"2023-01-26T10:28:38.862573169-03:00","Action":"run","Package":"rest-template/pkg/transport/handler","Test":"TestNewHTTP"}
+{"Time":"2023-01-26T10:28:38.862610169-03:00","Action":"output","Package":"rest-template/pkg/transport/handler","Test":"TestNewHTTP","Output":"=== RUN   TestNewHTTP\n"}
+{"Time":"2023-01-26T10:28:38.862626389-03:00","Action":"output","Package":"rest-template/pkg/transport/handler","Test":"TestNewHTTP","Output":"--- PASS: TestNewHTTP (0.00s)\n"}
+{"Time":"2023-01-26T10:28:38.862636065-03:00","Action":"pass","Package":"rest-template/pkg/transport/handler","Test":"TestNewHTTP","Elapsed":0}
+{"Time":"2023-01-26T10:28:38.862643112-03:00","Action":"output","Package":"rest-template/pkg/transport/handler","Output":"PASS\n"}
+{"Time":"2023-01-26T10:28:38.86271401-03:00","Action":"output","Package":"rest-template/pkg/transport/handler","Output":"coverage: 20.4% of statements\n"}
+{"Time":"2023-01-26T10:28:38.863439784-03:00","Action":"output","Package":"rest-template/pkg/transport/handler","Output":"ok  \trest-template/pkg/transport/handler\t0.004s\tcoverage: 20.4% of statements\n"}
+{"Time":"2023-01-26T10:28:38.8634524-03:00","Action":"pass","Package":"rest-template/pkg/transport/handler","Elapsed":0.004}
+{"Time":"2023-01-26T10:28:38.868351983-03:00","Action":"output","Package":"rest-template/cmd","Output":"?   \trest-template/cmd\t[no test files]\n"}
+{"Time":"2023-01-26T10:28:38.868403064-03:00","Action":"skip","Package":"rest-template/cmd","Elapsed":0}
+{"Time":"2023-01-26T10:28:38.868415013-03:00","Action":"output","Package":"rest-template/config","Output":"?   \trest-template/config\t[no test files]\n"}
+{"Time":"2023-01-26T10:28:38.868419879-03:00","Action":"skip","Package":"rest-template/config","Elapsed":0}
+{"Time":"2023-01-26T10:28:38.868426607-03:00","Action":"output","Package":"rest-template/config/connect","Output":"?   \trest-template/config/connect\t[no test files]\n"}
+{"Time":"2023-01-26T10:28:38.868430827-03:00","Action":"skip","Package":"rest-template/config/connect","Elapsed":0}
+{"Time":"2023-01-26T10:28:38.868436502-03:00","Action":"output","Package":"rest-template/config/setup","Output":"?   \trest-template/config/setup\t[no test files]\n"}
+{"Time":"2023-01-26T10:28:38.86844025-03:00","Action":"skip","Package":"rest-template/config/setup","Elapsed":0}
+{"Time":"2023-01-26T10:28:38.868448512-03:00","Action":"output","Package":"rest-template/pkg/service/endpoint","Output":"?   \trest-template/pkg/service/endpoint\t[no test files]\n"}
+{"Time":"2023-01-26T10:28:38.868461286-03:00","Action":"skip","Package":"rest-template/pkg/service/endpoint","Elapsed":0}
+{"Time":"2023-01-26T10:28:38.868471585-03:00","Action":"output","Package":"rest-template/pkg/service/endpoint/hello","Output":"?   \trest-template/pkg/service/endpoint/hello\t[no test files]\n"}
+{"Time":"2023-01-26T10:28:38.86847562-03:00","Action":"skip","Package":"rest-template/pkg/service/endpoint/hello","Elapsed":0}
+{"Time":"2023-01-26T10:28:38.868483149-03:00","Action":"output","Package":"rest-template/pkg/transport","Output":"?   \trest-template/pkg/transport\t[no test files]\n"}
+{"Time":"2023-01-26T10:28:38.86848687-03:00","Action":"skip","Package":"rest-template/pkg/transport","Elapsed":0}
